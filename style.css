@@ -1,0 +1,127 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 1.5rem;
+}
+
+h1{
+    text-align: center;
+    padding: 20px;
+    background-color: #2a2acc;
+    color: yellow;
+    border-radius: 10px;
+}
+
+main{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.disclaimer{
+    color: red;
+}
+
+#gift-btn{
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background-color: green;
+    color: whitesmoke;
+}
+
+#gift-btn:hover,
+#gift-btn:focus{
+    background-color: #2a2acc;
+    color: yellow;
+    transition: all 2s;
+}
+
+.pirate{
+    display: block;
+    margin: 0 auto 20px;
+    width: 300px;
+}
+
+/* ---------- MODAL ---------- */
+.modal-container{
+    display: none;
+    width: 70%;
+    height: 80vh;
+    position: fixed;
+    background-color: #252525;
+    padding: 20px;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px #000000;
+    text-align: center;
+    color: #fff;
+}
+
+input, textarea{
+    display: block;
+    margin: 0 auto;
+}
+
+input{
+    width: 400px;
+    height: 30px;
+    margin-bottom: 20px;
+}
+textarea{
+    resize: none;
+    max-width: 400px;
+    height: 200px;
+}
+
+.btn-container{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin: 20px 0 0 0;
+}
+
+.reverse{
+    flex-direction: row-reverse;
+}
+
+button{
+    padding: 10px 30px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    color: inherit;
+    font-size: inherit;
+}
+
+.submit-btn{
+    background-color: green;
+}
+
+.decline-btn{
+    background-color: red;
+}
+
+#close-pin{
+    background: none;
+    border: none;
+    padding: 0;
+    color: inherit;
+    font-size: 1.5rem;
+    font-weight: 700;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+#close-pin:hover,
+#close-pin:focus{
+    color: red;
+}
+
+#close-pin:disabled{
+    color: #808080;
+    cursor: none;
+}
