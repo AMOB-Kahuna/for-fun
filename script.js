@@ -13,9 +13,9 @@ closePin.addEventListener("click", function() {
     modalContainer.style.display = "none"
 })
 
-declineBtn.addEventListener("mouseover", function() {
-    document.querySelector("#btn-container").classList.toggle("reverse")
-})
+// declineBtn.addEventListener("mouseover", function() {
+//     document.querySelector("#btn-container").classList.toggle("reverse")
+// })
 
 declineBtn.addEventListener("click", function() {
     document.querySelector("#btn-container").classList.toggle("reverse")

@@ -126,9 +126,9 @@ button{
     cursor: none;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 720px) {
     body{
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
 
     .modal-container{
@@ -136,10 +136,7 @@ button{
     }
 
     input{
-        width: 70%;
+        width: 200px;
     }
 
-    textarea{
-        max-width: fit-content;
-    }
 }
