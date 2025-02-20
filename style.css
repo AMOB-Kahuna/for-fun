@@ -125,3 +125,21 @@ button{
     color: #808080;
     cursor: none;
 }
+
+@media (max-width: 320px) {
+    body{
+        font-size: 1rem;
+    }
+
+    .modal-container{
+        width: 90vw;
+    }
+
+    input{
+        width: 70%;
+    }
+
+    textarea{
+        max-width: fit-content;
+    }
+}
